@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Links Dashboard</title>
+<style>
+  body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+  }
+
+  h1 {
+    font-size: 2em;
+    color: #0d47a1;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  }
+
+  .card h2 {
+    font-size: 1.2em;
+    color: #0d47a1;
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    color: #555;
+    font-size: 0.9em;
+  }
+
+  footer {
+    margin-top: 30px;
+    font-size: 0.8em;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+
+<h1>🌐 Digitalization</h1>
+
+<div class="dashboard">
+  <a href="https://www.google.com" class="card" target="_blank">
+    <h2>Centralization system</h2>
+    <p>Search engine and productivity tools</p>
+  </a>
+
+  <a href="https://www.github.com" class="card" target="_blank">
+    <h2>GitHub</h2>
+    <p>Code hosting and collaboration</p>
+  </a>
+
+  <a href="https://www.youtube.com" class="card" target="_blank">
+    <h2>YouTube</h2>
+    <p>Learn, watch, and explore videos</p>
+  </a>
+
+  <a href="https://www.reddit.com" class="card" target="_blank">
+    <h2>Reddit</h2>
+    <p>Communities, discussions, and trends</p>
+  </a>
+
+  <a href="https://www.linkedin.com" class="card" target="_blank">
+    <h2>LinkedIn</h2>
+    <p>Professional networking and careers</p>
+  </a>
+
+  <a href="https://news.google.com" class="card" target="_blank">
+    <h2>Google News</h2>
+    <p>Latest headlines and world updates</p>
+  </a>
+</div>
+
+<footer>© 2025 Dashboard</footer>
+
+</body>
+</html>
